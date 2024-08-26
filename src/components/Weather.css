@@ -1,0 +1,119 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, #4877f0, #290b6a);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-bar input {
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    color: #333;
+    background: #ffffff;
+    font-size: 18px;
+    width: 100%;
+    max-width: 250px;
+}
+
+.search-bar img {
+    width: 50px;
+    padding: 12px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icon {
+    width: 120px;
+    margin: 20px 0;
+}
+
+.temp {
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1;
+}
+
+.location {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.local-time {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.weather-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    flex: 1;
+    min-width: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-data .col img {
+    width: 30px;
+}
+
+.weather-data .col div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather-data .col span {
+    font-size: 14px;
+    color: #d3d3d3;
+}
+
+.timestamp {
+    border-radius: 10px;
+    border: 5px solid rgb(25, 51, 117);
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+}
